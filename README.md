@@ -30,22 +30,31 @@ When clicking a dataset, the chart adjusts to this sub-set. For instance, clicki
 ### Dataset format sample
 ```json
 {  
-    establishments: [  
+  "establishments": [  
 	{  
-		name: "cherdak",  
-		type: "bar"  
-		region: "minskaja"  
-		contracts: [  
-			{ type: "live", amount: 1500 }, 
-			{ type: "radio", amount: 1400 } 
+		"name": "cherdak",  
+		"type": "bar",
+		"region": "minskaja",  
+		"contracts": [  
+			{ 
+			  "type": "live", 
+			  "amount": 1500 
+			}, 
+			{ 
+			  "type": "radio", 
+			  "amount": 1400 
+      } 
 		]
 	},  
 	{  
-		name: "revolucion",  
-		type: "hotel",  
-		region: "minskaja",  
-		contracts: [  
-			{ type: "radio", amount: 1800 } 
+		"name": "revolucion",  
+		"type": "hotel",  
+		"region": "minskaja",  
+		"contracts": [  
+			{ 
+			  "type": "radio",
+			  "amount": 1800 
+      } 
 		]  
 	}]
 }
